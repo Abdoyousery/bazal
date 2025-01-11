@@ -1,0 +1,29 @@
+@media screen and (max-width: 992px){
+    .navbar-divider{
+        height: 0px;
+    }
+    .social-icons{
+        display: none;
+    }
+    #about-info{
+        text-align: center;
+    }
+    .best-price{
+        position: static;
+        padding: 45px 35px;
+    }
+}
+@media screen and (max-width: 768px){
+   .carousel-control-prev,.carousel-control-next{
+    display: none;
+   }
+   .header-content h1{
+    font-size: 62px;
+   }
+   .carousel-image{
+    background-position: center;
+   }
+   .carousel-item1{
+    padding: 40px 50px;
+   }
+}

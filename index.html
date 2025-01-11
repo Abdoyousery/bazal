@@ -1,0 +1,731 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======font awsome========= -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ======bootstrap========= -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- ======aos animation========= -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <title>Bazel.</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-white fixed-top shadow"
+      style="--bs-navbar-padding-y: 0px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo-dark.png" alt="Bootstrap" height="40px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-info">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+
+          <div class="navbar-divider"></div>
+          <div class="social-icons">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- ================header================================ -->
+      <header class="min-vh-100" id="home">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide position-relative"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item carousel-image bg-img1 d-flex justify-content-center active"
+            >
+              <div
+                class="text-center header-content d-flex text-white justify-content-center align-items-center flex-column"
+              >
+                <h1 class="scale-up-center1">Get Awesome.</h1>
+                <h4 class="scale-up-center2">
+                  We are an innovative company making digital stuff.
+                </h4>
+                <div class="scale-up-center3">
+                  <div class="btn btn-primary me-2 py-2 px-4">Read More</div>
+                  <div class="btn btn-outline-light py-2 px-4">Contact</div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-image bg-img2">
+              <div
+                class="text-center header-content min-vh-100 d-flex justify-content-center align-items-center text-white flex-column"
+              >
+                <h1 class="scale-up-center1">Create With Bezel.</h1>
+                <h4 class="scale-up-center2">
+                  We help ambitious companies create new value.
+                </h4>
+                <div class="scale-up-center3">
+                  <div class="btn btn-primary me-2 py-2 px-4">Hire Us</div>
+                  <div class="btn btn-outline-light py-2 px-4">Services</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span>
+              <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+            <div class="icon-layer"></div>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="fa-solid fa-arrow-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            <div class="icon-layer"></div>
+          </button>
+        </div>
+      </header>
+
+      <!-- ================about================================ -->
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="text-center">
+                <h6 class="text-capitalize">who we are</h6>
+                <p class="lead">
+                  We are an innovative company. We develop and design
+                  <!-- Element to contain animated typing -->
+                  <span id="element" class="typed-animation"></span>
+
+                  <!-- Load library from the CDN -->
+                  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+                  <!-- Setup and start animation! -->
+                  <script>
+                    var typed = new Typed("#element", {
+                      strings: ["apps", "websites", "softwares"],
+                      typeSpeed: 100,
+                      loop: Infinity,
+                    });
+                  </script>
+                  for costumers around the world. Our clients are some of the
+                  most forward-looking companies in the world.
+                </p>
+                <a href="#about-info" class="text-uppercase btn border-0"
+                  >read more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ================team================================ -->
+
+      <section id="team">
+        <div class="container">
+          <div class="head-sec text-center">
+            <h2 class="position-relative">Creative Team</h2>
+            <h4>We are digital thinkers</h4>
+          </div>
+          <div class="pt-25 pb-25">
+            <div class="row g-3">
+              <div
+                class="col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="team-img position-relative">
+                  <img src="imgs/team-1.jpg" class="card-img-top" alt="..." />
+
+                  <div
+                    class="over-lay position-absolute h-100 d-flex flex-column justify-content-between"
+                  >
+                    <div class="socical">
+                      <ul class="d-flex gap-3 p-3">
+                        <li>
+                          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                          <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="role p-3 text-white">
+                      <h4>Luke Cage</h4>
+                      <p>Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="team-img position-relative">
+                  <img src="imgs/team-2.jpg" class="card-img-top" alt="..." />
+
+                  <div
+                    class="over-lay position-absolute h-100 d-flex flex-column justify-content-between"
+                  >
+                    <div class="socical">
+                      <ul class="d-flex gap-3 p-3">
+                        <li>
+                          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                          <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="role p-3 text-white">
+                      <h4>Luke Cage</h4>
+                      <p>Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="700"
+              >
+                <div class="team-img position-relative">
+                  <img src="imgs/team-3.jpg" class="card-img-top" alt="..." />
+
+                  <div
+                    class="over-lay position-absolute h-100 d-flex flex-column justify-content-between"
+                  >
+                    <div class="socical">
+                      <ul class="d-flex gap-3 p-3">
+                        <li>
+                          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                          <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="role p-3 text-white">
+                      <h4>Luke Cage</h4>
+                      <p>Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-lg-3"
+                data-aos="fade-up"
+                data-aos-delay="900"
+              >
+                <div class="team-img position-relative">
+                  <img src="imgs/team-4.jpg" class="card-img-top" alt="..." />
+
+                  <div
+                    class="over-lay position-absolute h-100 d-flex flex-column justify-content-between"
+                  >
+                    <div class="socical">
+                      <ul class="d-flex gap-3 p-3">
+                        <li>
+                          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                          <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href=""
+                            ><i class="fa-brands fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="role p-3 text-white">
+                      <h4>Luke Cage</h4>
+                      <p>Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================about info================================ -->
+      <section id="about-info">
+        <div class="container">
+          <div class="row text-uppercase text-center">
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="300"
+            >
+              <h4>Stunning Design</h4>
+            </div>
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="400"
+            >
+              <h4>Time Saver</h4>
+            </div>
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="500"
+            >
+              <h4>Clean Code</h4>
+            </div>
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="600"
+            >
+              <h4>Customizable</h4>
+            </div>
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="700"
+            >
+              <h4>Perfect Layout</h4>
+            </div>
+            <div
+              class="col-md-4 col-lg-2 mt-25 mb-25"
+              data-aos="zoom-out"
+              data-aos-delay="800"
+            >
+              <h4>Retina Ready</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-md-12 col-lg-4"
+              data-aos="fade-right"
+              data-aos-delay="900"
+            >
+              <div class="head-sec">
+                <h2>What We Do.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aliquam ipsam ullam incidunt itaque nemo omnis temporibus
+                  totam quibusdam repellat vero, recusandae excepturi
+                  dignissimos velit et alias amet, quia facilis perferendis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 offset-lg-2 col-lg-5">
+              <div class="row" data-aos="fade-left" data-aos-delay="900">
+                <div class="col-md-6 benefits">
+                  <ul>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Research</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop"
+                          >Opportunity Analysis</span
+                        ></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Consulting</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Brand Planning</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Customer Support </span></i
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 benefits">
+                  <ul>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Logo & Branding</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Style guides</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">Motion graphics</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop">UX/UI-design</span></i
+                      >
+                    </li>
+                    <li class="py-2">
+                      <i class="fa-regular fa-circle-check"
+                        ><span class="ms-2 font-pop"
+                          >Social media design</span
+                        ></i
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================pricing================================ -->
+      <section id="pricing">
+        <div class="container">
+          <div class="head-sec text-center">
+            <h2 class="position-relative">Cheap Prices</h2>
+            <p>We provide the best quality.</p>
+          </div>
+          <div class="row pricing-tabels position-relative g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card pricing-card shadow border-0">
+                <div class="pricing-head">
+                  <p class="text-capitalize">Starter</p>
+                </div>
+                <div class="price">
+                  <h4><span>$</span>9</h4>
+                </div>
+                <hr />
+                <div class="pricing-benefits">
+                  <ul>
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+                  </ul>
+                </div>
+                <div class="sign-up-anc my-3">
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card pricing-card shadow border-0">
+                <div class="pricing-head">
+                  <p class="text-capitalize">Silver</p>
+                </div>
+                <div class="price">
+                  <h4><span>$</span>19</h4>
+                </div>
+                <hr />
+                <div class="pricing-benefits">
+                  <ul>
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+                  </ul>
+                </div>
+                <div class="sign-up-anc my-3">
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card pricing-card shadow-lg border-0 best-price">
+                <div
+                  class="pricing-head d-flex justify-content-between align-items-center"
+                >
+                  <p class="text-capitalize">Gold</p>
+                  <p class="text-uppercase badge">Best value</p>
+                </div>
+                <div class="price main-color">
+                  <h4><span>$</span>29</h4>
+                </div>
+                <hr />
+                <div class="pricing-benefits">
+                  <ul>
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+                  </ul>
+                </div>
+                <div class="sign-up-anc my-3">
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card pricing-card shadow border-0">
+                <div class="pricing-head">
+                  <p class="text-capitalize">Platinum</p>
+                </div>
+                <div class="price">
+                  <h4><span>$</span>49</h4>
+                </div>
+                <hr />
+                <div class="pricing-benefits">
+                  <ul>
+                    <li>Unlimited Connections</li>
+                    <li>24/7 Support</li>
+                    <li>Full SSL Protection</li>
+                    <li>Unlimited Channels</li>
+                  </ul>
+                </div>
+                <div class="sign-up-anc my-3">
+                  <a href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <div class="container">
+          <div class="row">
+            <div class=" col-md-8 offset-md-2">
+              <div class="text-center">
+                <h6 class="text-uppercase text-center">Happy Customers</h6>
+                <div id="carousel-review" class="carousel slide">
+                  <div class="carousel-inner position-relative">
+                    <div class="carousel-item position-relative active">
+                        
+                          <div class="img-people">
+                            <img src="imgs/testimonial-1.jpg" alt="">
+                          </div>
+                        <div class="carousel-item1">
+                          <h3>Marissa Mayer</h3>
+                          <span>CEO, YAHOO</span>
+                          <p>
+                            Quo rem cumque facere modi beatae. Deleniti nisi,
+                            repellat quae aspernatur consequatur consequuntur,
+                            fugit asperiores delectus beatae. Quae veniam, quidem
+                            cupiditate quia? Ut iste deleniti.
+                          </p>
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item position-relative">
+                        <div class="img-people">
+                          <img src="imgs/testimonial-2.jpg" alt="">
+                        </div>
+                      <div class="carousel-item1">
+                        <h3>Mark Zuckerberg</h3>
+                        <span>Founder & CEO, Facebook</span>
+                        <p>
+                          Quo rem cumque facere modi beatae. Deleniti nisi,
+                          repellat quae aspernatur consequatur consequuntur,
+                          fugit asperiores delectus beatae. Quae veniam, quidem
+                          cupiditate quia? Ut iste deleniti.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-indicators position-static">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-review"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-review"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-review"
+                    data-bs-slide="prev"
+                  >
+                    <span>
+                      <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-review"
+                    data-bs-slide="next"
+                  >
+                    <span>
+                      <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="Contact">
+      <div class="row">
+        <div class="col-lg-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3415.151247074026!2d30.13360812388436!3d31.133314116162047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5df3e0c659d2f%3A0xe2eb2b2ec61f92f9!2z2YLYs9mFINi02LHYt9ipINmD2YHYsSDYp9mE2K_ZiNin2LE!5e0!3m2!1sar!2seg!4v1731799201777!5m2!1sar!2seg"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col-lg-4 p-110 px-5">
+          <div class="head-sec">
+            <h2 class="position-relative">Get In Touch</h2>
+            <h4>Let's work together.</h4>
+          </div>
+
+          <form action="">
+            <div class="d-flex flex-column py-2">
+              <label>Your Name</label>
+              <input type="text" />
+            </div>
+
+            <div class="d-flex flex-column py-2">
+              <label>Your Email</label>
+              <input type="email" />
+            </div>
+            <div class="d-flex flex-column py-2">
+              <label>Your Phone Number</label>
+              <input type="text" />
+            </div>
+            <div class="d-flex flex-column py-2">
+              <label>Your Massage</label>
+              <textarea rows="3"></textarea>
+            </div>
+
+            <button
+              class="send-btn py-2 px-4 border-0 main-bg-color text-white rounded-1 my-3"
+            >
+              Send Massage
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- ======typed script========= -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ======aos animation========= -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- ======bootstarp========= -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
